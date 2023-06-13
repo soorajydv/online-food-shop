@@ -1,0 +1,152 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href={% static 'menu.css' %}>
+</head>
+
+<body>
+    <section id="our_menu" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page_title text-center mb-4">
+                        <center>
+                            <h1>our menu</h1>
+                        </center>
+                        <div class="single_line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <ul class="nav nav-tabs menu_tab mb-4" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="breakfast-tab" data-toggle="tab" href="#breakfast"
+                            role="tab">Breakfast</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="lunch-tab" data-toggle="tab" href="#lunch" role="tab">Lunch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="dinner-tab" data-toggle="tab" href="#dinner" role="tab">Dinner</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="tab-content col-lg-12" id="myTabContent">
+                    <div class="tab-pane fade show active" id="breakfast" role="tabpanel"
+                        aria-labelledby="breakfast-tab">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="single_menu">
+                                    <img src="https://i.imgur.com/kbpceNv.jpg" alt="burger">
+                                    <div class="menu_content">
+                                        <h4>Chicken Burger <span>$24</span></h4>
+                                        <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta
+                                            saepe facilis.</p>
+                                        <a href="#" class="add_to_cart_btn btn btn-primary">Add to Cart</a>
+                                    </div>
+                                </div>
+                                <div class="single_menu">
+                                    <img src="https://i.imgur.com/lYKUORL.jpg" alt="black coffee">
+                                    <div class="menu_content">
+                                        <h4>Black coffee <span>$20</span></h4>
+                                        <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta
+                                            saepe facilis.</p>
+                                        <a href="#" class="add_to_cart_btn btn btn-primary">Add to Cart</a>
+                                    </div>
+                                </div>
+                                <div class="single_menu">
+                                    <img src="https://i.imgur.com/AXAHrf6.jpg" alt="fried rice">
+                                    <div class="menu_content">
+                                        <h4>Fried Rice <span>$45</span></h4>
+                                        <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta
+                                            saepe facilis.</p>
+                                        <a href="#" class="add_to_cart_btn btn btn-primary">Add to Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="lunch" role="tabpanel" aria-labelledby="lunch-tab">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="single_menu">
+                                    <img src="https://shorturl.at/gozA9" alt="sandwich">
+                                    <div class="menu_content">
+                                        <h4>Chicken Sandwich <span>$18</span></h4>
+                                        <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta
+                                            saepe facilis.</p>
+                                        <a href="#" class="add_to_cart_btn btn btn-primary">Add to Cart</a>
+                                    </div>
+                                </div>
+                                <div class="single_menu">
+                                    <img src="https://shorturl.at/xEJQX" alt="pizza">
+                                    <div class="menu_content">
+                                        <h4>Pepperoni Pizza <span>$30</span></h4>
+                                        <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta
+                                            saepe facilis.</p>
+                                        <a href="#" class="add_to_cart_btn btn btn-primary">Add to Cart</a>
+                                    </div>
+                                </div>
+                                <div class="single_menu">
+                                    <img src="https://shorturl.at/jpwS8" alt="salad">
+                                    <div class="menu_content">
+                                        <h4>Garden Salad <span>$22</span></h4>
+                                        <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta
+                                            saepe facilis.</p>
+                                        <a href="#" class="add_to_cart_btn btn btn-primary">Add to Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="dinner" role="tabpanel" aria-labelledby="dinner-tab">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="single_menu">
+                                    <img src="https://shorturl.at/nMNS7" alt="steak">
+                                    <div class="menu_content">
+                                        <h4>Grilled Steak <span>$40</span></h4>
+                                        <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta
+                                            saepe facilis.</p>
+                                        <a href="#" class="add_to_cart_btn btn btn-primary">Add to Cart</a>
+                                    </div>
+                                </div>
+                                <div class="single_menu">
+                                    <img src="https://i.imgur.com/eqfZ4yn.jpg" alt="spaghetti">
+                                    <div class="menu_content">
+                                        <h4>Spaghetti Bolognese <span>$28</span></h4>
+                                        <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta
+                                            saepe facilis.</p>
+                                        <a href="#" class="add_to_cart_btn btn btn-primary">Add to Cart</a>
+                                    </div>
+                                </div>
+                                <div class="single_menu">
+                                    <img src="https://i.imgur.com/BEkHSw3.jpg" alt="chicken soup">
+                                    <div class="menu_content">
+                                        <h4>Chicken Soup <span>$25</span></h4>
+                                        <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta
+                                            saepe facilis.</p>
+                                        <a href="#" class="add_to_cart_btn btn btn-primary">Add to Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- <script src={% static 'menu.js' %}></script> -->
+</body>
+
+</html>
